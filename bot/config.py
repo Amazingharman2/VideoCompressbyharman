@@ -6,12 +6,12 @@ class Config(object):
     # You can keep this default
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # Put MongoDB URL
-    DATABASE_URL = get_config("DATABASE_URL", "")
+    DATABASE_URL = get_config("DATABASE_URL", "mongodb+srv://chpudas:SPNjedirQ26Nungu@clustercompressbot.qnztune.mongodb.net/?retryWrites=true&w=majority&appName=Clustercompressbot")
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7766638158:AAFKkI3Tm5WDac-1uFDBztMqq1QzRHn64cc")
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 12345))
-    API_HASH = get_config("API_HASH", "")
+    APP_ID = int(get_config("APP_ID", 23991460))
+    API_HASH = get_config("API_HASH", "482b9c11ca28fdff8f0d3f9223ef0ac1")
     LOG_CHANNEL = get_config("LOG_CHANNEL")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
@@ -25,7 +25,7 @@ class Config(object):
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = get_config("BOT_USERNAME", "")
+    BOT_USERNAME = get_config("BOT_USERNAME", "VideoCompressorplusBot")
     MAX_FILE_SIZE = 2097152000
     TG_MAX_FILE_SIZE = 2097152000
     FREE_USER_MAX_FILE_SIZE = 2097152000
