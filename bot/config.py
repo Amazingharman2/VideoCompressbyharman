@@ -12,7 +12,7 @@ class Config(object):
     # The Telegram API things
     APP_ID = int(get_config("APP_ID", 23991460))
     API_HASH = get_config("API_HASH", "482b9c11ca28fdff8f0d3f9223ef0ac1")
-    LOG_CHANNEL = get_config("LOG_CHANNEL")
+    LOG_CHANNEL = get_config("LOG_CHANNEL","compressbotlogs1"
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
